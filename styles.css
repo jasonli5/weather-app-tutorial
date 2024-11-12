@@ -73,7 +73,7 @@ nav {
     padding: 20px 50px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     justify-content: center;
     align-items: center;
 
@@ -94,7 +94,13 @@ nav {
         background-color: #64C821;
         cursor: pointer;
         color: white;
+        margin-top: 15px
     }
+}
+
+.label {
+    font-family: Arial;
+    align-self: flex-start;
 }
 
 /* Only apply if screen width is less than 800px */
